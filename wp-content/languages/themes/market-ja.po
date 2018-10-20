@@ -1,0 +1,454 @@
+# Translation of Themes - Market in Japanese
+# This file is distributed under the same license as the Themes - Market package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-20 08:38:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Market\n"
+
+#. Theme Name of the plugin/theme
+msgid "Market"
+msgstr "Market"
+
+#: inc/customizer.php:413
+msgid " Url"
+msgstr "URL"
+
+#: inc/customizer.php:400 inc/customizer.php:413
+msgid "Icon "
+msgstr "アイコン"
+
+#: inc/customizer.php:383
+msgid "Yelp"
+msgstr "Yelp"
+
+#: inc/customizer.php:382
+msgid "Vine"
+msgstr "Vine"
+
+#: inc/customizer.php:381
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: inc/customizer.php:380
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: inc/customizer.php:378
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/customizer.php:376
+msgid "RSS Feeds"
+msgstr "RSS フィード"
+
+#: inc/customizer.php:371
+msgid "-"
+msgstr "-"
+
+#: inc/customizer.php:366
+msgid "Social Icons"
+msgstr "ソーシャルアイコン"
+
+#: inc/customizer.php:341
+msgid "Enter your Own Copyright Text."
+msgstr "Copyright テキストを入力"
+
+#: inc/customizer.php:340
+msgid "Custom Footer Text"
+msgstr "カスタムフッターテキスト"
+
+#: inc/customizer.php:306
+msgid "Enter your Custom CSS to Modify design."
+msgstr "カスタム CSS を入力してデザインを変更します。"
+
+#: inc/customizer.php:280
+msgid "More of Everything"
+msgstr "すべての詳細"
+
+#: inc/customizer.php:255
+msgid "Hello, Thanks for Downloading Market Pro. Due to a Huge no. of People who use Market Free Version, I can not answer all your queries. But I will try my best to answer your Queries. But for Bugs/Issues, We try to fix them ASAP. To Report a Bug or Ask for Help - <a href=\"https://rohitink.com/2014/03/13/market/\">Click Here</a>."
+msgstr "Market Pro をダウンロード頂きありがとうございます。とても多くの人々に Market の無料版をお使い頂いてる為、すべての質問にお答えすることは出来ませんが、出来る限りお答えできるよう最善を尽くしております。またバグや問題は素早く修正します。バグの報告や助けが必要な場合、<a href=\"https://rohitink.com/2014/03/13/market/\">ここをクリック</a>してください。"
+
+#: inc/customizer.php:254
+msgid "Visit Rohitink.com For Help"
+msgstr "ヘルプは Rohitink.com を参照ください。"
+
+#: inc/customizer.php:239
+msgid "MARKET Theme - Help & Support"
+msgstr "MARKET テーマ - ヘルプ & サポート"
+
+#: inc/customizer.php:208
+msgid "Target URL"
+msgstr "ターゲット URL"
+
+#: inc/customizer.php:193
+msgid "Slide Description"
+msgstr "スライドの説明"
+
+#: inc/customizer.php:179
+msgid "Slide Title"
+msgstr "スライドタイトル"
+
+#: inc/customizer.php:130
+msgid "Save the Settings, and Reload this page to Configure the Slides."
+msgstr "設定を保存し、このページを再読み込みしてスライドを設定します。"
+
+#: inc/customizer.php:127
+msgid "No. of Slides(Min:0, Max: 5)"
+msgstr "スライド数 (最小: 0、最大: 5)"
+
+#: inc/customizer.php:94
+msgid "Enable/Disable"
+msgstr "有効化 / 無効化"
+
+#: inc/customizer.php:72
+msgid "Hide Title and Tagline."
+msgstr "タイトルとキャッチフレーズを非表示。"
+
+#: inc/customizer.php:55
+msgid "Site Title Color"
+msgstr "サイトタイトル色"
+
+#: inc/customizer.php:33
+msgid "Upload Logo"
+msgstr "ロゴをアップロード"
+
+#: inc/customizer.php:20
+msgid "Title, Tagline & Logo"
+msgstr "タイトル、タグライン、ロゴ"
+
+#. Template Name of the plugin/theme
+msgid "Full Width(No Sidebar)"
+msgstr "全幅(サイドバーなし)"
+
+#. Template Name of the plugin/theme
+msgid "Full Width(No Sidebar & No Title)"
+msgstr "全幅 (サイドバーなし & タイトルなし)"
+
+#: sidebar.php:24
+msgid "Meta"
+msgstr "メタ"
+
+#: searchform-top.php:15
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: searchform-top.php:12 searchform.php:12
+msgctxt "placeholder"
+msgid "Search for anything on this site..."
+msgstr "サイト内を検索"
+
+#: searchform-top.php:11 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索:"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/customizer.php:377
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/customizer.php:384
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer.php:375
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:379
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer.php:374
+msgid "Google Plus"
+msgstr "Google+"
+
+#: inc/customizer.php:373
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:372
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:109
+msgid "Enable Slider."
+msgstr "スライダーを有効にします。"
+
+#: inc/customizer.php:305
+msgid "Custom CSS"
+msgstr "カスタム CSS"
+
+#: no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか？<a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "見つかりませんでした"
+
+#: inc/template-tags.php:183
+msgid "<span class=\"posted-on\"><i class=\"fa fa-clock-o\"> </i> %1$s</span> <span class=\"byline\"> <i class=\"fa fa-user\"> </i> %2$s</span>"
+msgstr "<span class=\"posted-on\"><i class=\"fa fa-clock-o\"> </i> %1$s</span> <span class=\"byline\"> <i class=\"fa fa-user\"> </i> %2$s</span>"
+
+#: inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: inc/template-tags.php:86
+msgctxt "1: date"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新しい投稿 <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 過去の投稿"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/extras.php:66
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: image.php:38
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "次へ <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> 前へ"
+
+#: image.php:22
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+#: header.php:83
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#: functions.php:186 header.php:44
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 件のアイテム"
+
+#: functions.php:186 header.php:44
+msgid "View your shopping cart"
+msgstr "ショッピングカートをみる"
+
+#: functions.php:75
+msgid "Footer Right"
+msgstr "フッター右"
+
+#: functions.php:67
+msgid "Footer Center"
+msgstr "フッター中央"
+
+#: functions.php:59
+msgid "Footer Left"
+msgstr "フッター左"
+
+#: functions.php:50
+msgid "Primary Sidebar"
+msgstr "メインサイドバー"
+
+#: functions.php:28
+msgid "Top Menu"
+msgstr "トップメニュー"
+
+#: functions.php:27
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:17
+msgid "Powered by %1$s"
+msgstr "Powered by %1$s"
+
+#: content.php:45
+msgid "Pages: "
+msgstr "ページ:"
+
+#: content.php:42
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:58
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "カテゴリー: %1$s <a href=\"%3$s\" rel=\"bookmark\">パーマリンク</a>"
+
+#: content-single.php:56
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "カテゴリー: %1$s タグ: %2$s <a href=\"%3$s\" rel=\"bookmark\">パーマリンク</a>"
+
+#: content-single.php:50
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<a href=\"%3$s\" rel=\"bookmark\">パーマリンク</a>をブックマーク"
+
+#: content-single.php:48
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "タグ: %2$s <a href=\"%3$s\" rel=\"bookmark\">パーマリンク</a>"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:40 content-single.php:43
+msgid ", "
+msgstr "、"
+
+#: content-page.php:23 content-single.php:71 image.php:32 image.php:64
+#: inc/template-tags.php:71 inc/template-tags.php:89
+#: page-full-width-no-title.php:25
+msgid "Edit"
+msgstr "編集"
+
+#: content-page.php:18 content-single.php:31 image.php:58
+#: page-full-width-no-title.php:20
+msgid "Pages:"
+msgstr "ページ:"
+
+#: content-home.php:21 defaults/content-default.php:16
+msgid "Read More"
+msgstr "続きを読む"
+
+#: comments.php:102
+msgid "Website"
+msgstr "Web サイト"
+
+#: comments.php:95
+msgid "Email"
+msgstr "メール"
+
+#: comments.php:89
+msgid "Name"
+msgstr "名前"
+
+#: comments.php:82
+msgctxt "noun"
+msgid "Comment"
+msgstr "コメント"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "コメントは停止中です。"
+
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; 過去のコメント"
+
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
+
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:60
+msgid "Links"
+msgstr "リンク"
+
+#: archive.php:57
+msgid "Quotes"
+msgstr "引用"
+
+#: archive.php:54
+msgid "Videos"
+msgstr "動画"
+
+#: archive.php:51
+msgid "Images"
+msgstr "画像"
+
+#: archive.php:48
+msgid "Asides"
+msgstr "アサイド"
+
+#: archive.php:45
+msgid "Year: %s"
+msgstr "﻿年: %s"
+
+#: archive.php:42
+msgid "Month: %s"
+msgstr "月: %s"
+
+#: archive.php:39
+msgid "Day: %s"
+msgstr "﻿日: %s"
+
+#: archive.php:31
+msgid "Author: %s"
+msgstr "作成者: %s"
+
+#. translators: %1$s: smiley
+#: 404.php:44
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "月別アーカイブを探してみてください: %1$s"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#. Author URI of the plugin/theme
+msgid "http://rohitink.com"
+msgstr "http://rohitink.com"
+
+#. Author of the plugin/theme
+msgid "Rohit Tripathi"
+msgstr "Rohit Tripathi"
+
+#. Theme URI of the plugin/theme
+msgid "http://rohitink.com/2014/03/13/market/"
+msgstr "http://rohitink.com/2014/03/13/market/"
