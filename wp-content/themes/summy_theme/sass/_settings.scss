@@ -1,0 +1,191 @@
+// ---------- reset ---------- //
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+li{
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+q {
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+blockquote {
+  &:before, &:after {
+    content: "";
+    content: none;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+input, textarea {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+       appearance: button;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+  &::-webkit-search-decoration {
+    display: none;
+  }
+
+  &::focus {
+    outline-offset: -2px;
+  }
+}
+
+input, button, textarea, select {
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+}
+
+// ---------- COLOR ---------- //
+$main-color: #ff003e;
+$base-color: #fff;
+$base-color2: #f9f9f9;
+$line-color: #dedede;
+$link-color: #179ee2;
+$text-color: #3a3a3a;
+$text-color2: #757575;
+$text-color3: #504000;
+$alert-color: #ff503c;
+$facebook-color: #3c5a98;
+$hatebu-color: #548acc;
+$twitter-color: #73BFE5;
+$snsline-color: #00C300;
+
+// ---------- MEDIA QUERY ---------- //
+$mediaquery: 769px;
+
+// ---------- FONT ---------- //
+$line-height: 1.6em;
+@mixin font36($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 36px;
+  line-height: $lineHeight;
+}
+
+@mixin font32($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 32px;
+  line-height: $lineHeight;
+}
+
+@mixin font30($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 30px;
+  line-height: $lineHeight;
+}
+
+@mixin font28($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 28px;
+  line-height: $lineHeight;
+}
+
+@mixin font26($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 26px;
+  line-height: $lineHeight;
+}
+
+@mixin font24($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 24px;
+  line-height: $lineHeight;
+}
+
+@mixin font20($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 20px;
+  line-height: $lineHeight;
+}
+
+@mixin font18($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 18px;
+  line-height: $lineHeight;
+}
+
+@mixin font16($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 16px;
+  line-height: $lineHeight;
+}
+
+@mixin font14($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 14px;
+  line-height: $lineHeight;
+}
+
+@mixin font12($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 12px;
+  line-height: $lineHeight;
+}
+
+@mixin font10($fontColor: $text-color, $lineHeight: $line-height) {
+  color: $fontColor;
+  font-size: 10px;
+  line-height: $lineHeight;
+}
+
+// ---------- common animation ---------- //
+@mixin anim($duration: 200ms, $dalay: 0ms, $easeing: cubic-bezier(0.27, 0.9, 0.615, 1)) {
+  -webkit-transition: all $duration $dalay $easeing;
+  transition: all $duration $dalay $easeing;
+}
