@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="footer_logo">
-            <a href="https://travel.spot-app.jp/"><img alt="SUMMY" src="<?php echo get_template_directory_uri(); ?>/img/footer_logo.png" /></a>
+            <a href="<?php echo home_url(); ?>"><img alt="SUMMY" src="<?php echo get_template_directory_uri(); ?>/img/footer_logo.png" /></a>
           </div>
           <div class="footer_copyright">
             <small>©︎SUMMY</small>

@@ -655,6 +655,7 @@ a {
   height: 100vh;
   min-height: 620px;
   background: $main-color;
+  @include anim(300ms,0s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
   .hero_logo{
     position: absolute;
     left: 0;
@@ -693,16 +694,10 @@ a {
             filter: blur(20px);
     @include anim(1.5s,0.5s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
     opacity: 0;
-    img{
-      position: absolute;
-      // position: relative;
-      bottom: 0;
-      margin: 0 auto;
-      left: 50%;
-      width: 960px;
-      -webkit-transform: translate(-50% , 0);
-              transform: translate(-50% , 0);
-    }
+    width: 100%;
+    height: 488px;
+    background-size: cover !important;
+    background-position: 50% !important;
   }
   .hero_image.on{
     opacity: 1;
@@ -779,21 +774,15 @@ a {
   .hero{
     min-height: 920px;
     .hero_logo{
-      max-width: 720px;
+      max-width: 880px;
       top: 128px;
     }
     .hero_logo.on{
-      top: 108px;
+      top: 98px;
     }
     .hero_image{
       bottom: -140px;
-      img{
-        width: 1440px;
-        left: -50%;
-        right: -50%;
-        -webkit-transform: translate(0 , 0);
-                transform: translate(0 , 0);
-      }
+      height: 731px;
     }
     .hero_image.on{
       bottom: -110px;
@@ -819,11 +808,12 @@ a {
 //  main_wrap
 // -------------------------------------------
 .home .main_wrap {
+  // margin: 100vh 12px 0;
   margin: 100vh 0 0;
 }
 
 .main_wrap {
-  margin: 55px 0 0;
+  margin: 55px 12px 0;
   background: $base-color;
   @include anim;
 }
@@ -831,7 +821,7 @@ a {
 .main {
   width: 100%;
   margin: 0 auto;
-  padding: 0 0 24px;
+  padding: 0 0 32px;
 }
 
 @media (min-width: $mediaquery) {
@@ -843,6 +833,9 @@ a {
     width: 960px;
     padding: 0 0 88px;
   }
+  .single .main{
+    width: 680px;
+  }
 }
 
 // -------------------------------------------
@@ -851,24 +844,34 @@ a {
 section{
   padding: 48px 24px 0;
 }
+section:first-child{
+  padding: 32px 24px 0;
+}
 
 .section_title{
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'ivyjournal','Montserrat', sans-serif;
   font-size: 40px;
-  color: $main-color;
+  // text-align: center;
+  color: $text-color;
   line-height: 1;
+  letter-spacing: 0.03em;
+  -webkit-font-variant-ligatures: none;
+          font-variant-ligatures: none;
 }
 .section_content{
-  padding: 16px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 @media (min-width: $mediaquery) {
   section{
     padding: 88px 32px 0;
   }
+  section:first-child{
+    padding: 60px 32px 0;
+  }
   .section_title{
-    // font-size: 56px;
+    font-size: 60px;
   }
   .section_content{
     padding: 28px 0 0 0;
@@ -1054,8 +1057,8 @@ section{
 }
 
 .profile_name{
-  font-family: 'Montserrat', sans-serif;
-  @include font36($text-color, 1);
+  font-family: 'ivyjournal', sans-serif;
+  @include font28($text-color, 1);
   // font-weight: bold;
 }
 
@@ -1080,7 +1083,7 @@ section{
     background: #fff;
   }
   .profile_name{
-    font-size: 40px;
+    font-size: 32px;
   }
   .profile_text{
     margin: 12px 0 0;
@@ -1138,7 +1141,7 @@ section{
     }
   }
   .dick_link{
-    display: block;
+    display: none;
     a{
       display: block;
       padding: 16px 48px;
@@ -1151,6 +1154,7 @@ section{
 
 @media (min-width: $mediaquery) {
   .music_list{
+    margin: 0 0 -24px;
     li{
       -ms-flex-preferred-size: calc(25% - 12px);
           flex-basis: calc(25% - 12px);
@@ -1212,9 +1216,8 @@ section{
     // flex-wrap: wrap;
     // justify-content: space-between;
   }
-
-  li{
-    margin: 0 0 24px 0;
+  li + li{
+    margin: 24px 0 0;
     // flex-basis: 48%;
   }
   .video_item{
@@ -1298,6 +1301,9 @@ section{
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
+    }
+    li + li{
+      margin: 0;
     }
     .video_item{
       -ms-flex-preferred-size: calc(50% - 12px);

@@ -6,6 +6,7 @@
       <div class="entry_header">
         <span class="date"><?php echo get_the_date(); ?></span>
         <h1 class="entry_title"><?php the_title(); ?></h1>
+        <?php echo get_post_type_archive_link( '***' ); ?>
       </div>
       <?php if( has_post_thumbnail() ): ?>
       <div class="article_image">

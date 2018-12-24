@@ -3,7 +3,7 @@
     <div class="main">
       <section id="news">
         <h2 class="section_title">
-          NEWS
+          news
         </h2>
         <div class="section_content">
           <div class="news_list">
@@ -30,7 +30,7 @@
       </section>
       <section id="profile">
         <h2 class="section_title">
-          PROFILE
+          profile
         </h2>
         <div class="section_content">
           <div class="profile_inner">
@@ -55,7 +55,7 @@
       </section>
       <section id="music">
         <h2 class="section_title">
-          MUSIC
+          music
         </h2>
         <div class="section_content">
           <div class="music_list">
@@ -128,7 +128,7 @@
       </section>
       <section id="video">
         <h2 class="section_title">
-          VIDEO
+          video
         </h2>
         <div class="section_content">
           <div class="video_list">
