@@ -7,6 +7,7 @@
         </h2>
         <div class="section_content">
           <div class="news_list">
+            <?php query_posts("cat=1&showposts=10"); ?>
             <?php if(have_posts()): while(have_posts()): the_post(); ?>
               <div class="list_item">
                 <div class="list_date">
@@ -25,6 +26,34 @@
           </div>
           <div class="more_button">
             <a href="<?php echo home_url(); ?>/news">READ MORE</a>
+          </div>
+        </div>
+      </section>
+      <section id="news">
+        <h2 class="section_title">
+          schedule
+        </h2>
+        <div class="section_content">
+          <div class="news_list">
+            <?php query_posts("cat=4&showposts=10"); ?>
+            <?php if(have_posts()): while(have_posts()): the_post(); ?>
+              <div class="list_item">
+                <div class="list_date">
+                  <?php echo get_the_date( 'Y.m.d' ); ?>
+                </div>
+                <div class="list_title">
+                  <h3 class="title">
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                  </h3>
+                  <!-- <div class="description">
+                    <?php the_excerpt(); ?>
+                  </div> -->
+                </div>
+              </div>
+            <?php endwhile; endif; ?>
+          </div>
+          <div class="more_button">
+            <a href="<?php echo home_url(); ?>/schedule">READ MORE</a>
           </div>
         </div>
       </section>
