@@ -12,7 +12,7 @@
   <link href="<?php echo get_template_directory_uri(); ?>/img/favicons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
   <link href="<?php echo get_template_directory_uri(); ?>/img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
   <link href="<?php echo get_template_directory_uri(); ?>/img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
-  <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime( get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
   <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" rel="stylesheet" />
   <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.typekit.net/ygb1mln.css">
