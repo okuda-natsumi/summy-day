@@ -2,12 +2,12 @@
   <div class="main_wrap">
     <div class="main">
       <section id="news">
-        <h2 class="section_title">
-          news
-        </h2>
         <div class="section_content">
+          <h2 class="section_title">
+            news
+          </h2>
           <div class="news_list">
-            <?php query_posts("cat=1&showposts=10"); ?>
+            <?php query_posts("cat=1&showposts=5"); ?>
             <?php if(have_posts()): while(have_posts()): the_post(); ?>
               <div class="list_item">
                 <div class="list_date">
@@ -28,14 +28,13 @@
             <a href="<?php echo home_url(); ?>/news">READ MORE</a>
           </div>
         </div>
-      </section>
-      <section id="news">
-        <h2 class="section_title">
-          schedule
-        </h2>
+
         <div class="section_content">
+          <h2 class="section_title">
+            schedule
+          </h2>
           <div class="news_list">
-            <?php query_posts("cat=4&showposts=10"); ?>
+            <?php query_posts("cat=6&showposts=5"); ?>
             <?php if(have_posts()): while(have_posts()): the_post(); ?>
               <div class="list_item">
                 <div class="list_date">
