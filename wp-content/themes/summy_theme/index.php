@@ -60,7 +60,7 @@
         <div class="section_content">
           <div class="profile_inner">
             <div class="profile_image">
-              <img alt="プロフィール画像" src="<?php echo get_template_directory_uri(); ?>/img/profile_image.jpg" />
+              <img alt="プロフィール画像" src="<?php echo get_template_directory_uri(); ?>/img/profile_img.jpg" />
             </div>
             <div class="profile_info">
               <div class="profile_name">
