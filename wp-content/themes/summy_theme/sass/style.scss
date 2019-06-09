@@ -840,7 +840,6 @@ section:first-child{
 }
 
 .section_title{
-  overflow: hidden;
   font-family: 'ivyjournal','Montserrat', sans-serif;
   font-size: 40px;
   // text-align: center;
@@ -873,7 +872,7 @@ section:first-child{
 //  NEWS
 // -------------------------------------------
 .news_list{
-
+  margin: 24px 0 0;
 }
 
 .list_item{
@@ -901,7 +900,7 @@ section:first-child{
   .title{
     margin: 4px 0 0;
     @include font14($text-color, 1.5);
-    font-weight: bold;
+    // font-weight: bold;
   }
   .description{
     margin: 4px 0 0;
@@ -918,13 +917,27 @@ section:first-child{
   a{
     display: block;
     padding: 16px 48px;
-    border: 1px solid $main-color;
-    @include font14($main-color, 1);
+    border: 1px solid $text-color;
+    @include font14($text-color, 1);
     text-align: center;
   }
 }
 
 @media (min-width: $mediaquery) {
+  #news{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    .section_content{
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 calc(50% - 24px);
+              flex: 0 0 calc(50% - 24px);
+    }
+  }
+
   .news_list{
 
   }
@@ -932,12 +945,13 @@ section:first-child{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 0 0 24px;
+    padding: 0 24px 24px 0;
     margin: 0 0 24px;
+    min-height: 2.2em;
   }
   .list_date {
-    min-width: 8em;
-    font-size: 14px;
+    min-width: 7em;
+    font-size: 12px;
   }
 
   .list_title{
@@ -953,7 +967,7 @@ section:first-child{
       position: relative;
       font-family: 'Montserrat', sans-serif;
       @include anim(400ms);
-      font-size: 18px;
+      font-size: 16px;
       &:after {
         content: "";
         position: absolute;
@@ -986,8 +1000,8 @@ section:first-child{
     margin: 24px 0 0;
     a{
       position: relative;
-      padding: 0 36px 0 0;
-      font-size: 16px;
+      padding: 0 32px 0 0;
+      font-size: 14px;
       @include anim(400ms);
       font-family: 'Montserrat', sans-serif;
       border: none;
@@ -996,10 +1010,10 @@ section:first-child{
         display: block;
         position: absolute;
         right: 0;
-        bottom: 4px;
-        width: 16px;
+        bottom: 2px;
+        width: 14px;
         height: 1px;
-        background: $main-color;
+        background: $text-color;
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
         -webkit-transform-origin: 100%;
@@ -1011,10 +1025,10 @@ section:first-child{
         display: block;
         position: absolute;
         right: 0;
-        bottom: 4px;
-        width: 28px;
+        bottom: 2px;
+        width: 24px;
         height: 1px;
-        background: $main-color;
+        background: $text-color;
         @include anim(400ms);
       }
       &:hover{
@@ -1025,6 +1039,29 @@ section:first-child{
       &:hover:after{
         width: 40px;
       }
+    }
+  }
+}
+
+// -------------------------------------------
+//  NEWS
+// -------------------------------------------
+#archive{
+
+}
+@media (min-width: $mediaquery) {
+  #archive{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    .section_content{
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 calc(80% - 32px);
+              flex: 0 0 calc(80% - 32px);
+      padding: 0 0 0 32px;
+    }
+    .news_list{
+      margin: 12px 0 0;
     }
   }
 }
@@ -1056,21 +1093,25 @@ section:first-child{
 .profile_text{
   margin: 8px 0 0;
   @include font14($text-color, 1.9);
+  p{
+    margin: 0.7em 0 0;
+  }
 }
 @media (min-width: $mediaquery) {
   .profile_inner{
     position: relative;
   }
   .profile_image{
-    width: 440px;
+    width: 500px;
+    height: 340px;
   }
   .profile_info{
     position: absolute;
-    bottom: -28px;
+    bottom: -96px;
     right: 0;
     margin: 0;
     padding: 24px 0 24px 32px;
-    width: 480px;
+    width: 450px;
     background: #fff;
   }
   .profile_name{
@@ -1445,8 +1486,8 @@ section:first-child{
   .entry_content{
     padding: 0 24px 20px;
   }
-  p{
-    padding: 20px 0 0;
+  p,div{
+    padding: 1em 0 0;
     @include font14($text-color, 1.8);
   }
 }

@@ -16,10 +16,10 @@
       <div class="entry_content">
         <?php the_content(); ?>
       </div>
-      <div class="nav-page">
+      <!--<div class="nav-page">
         <span class="nav-prev"><?php previous_post_link('%link', '>'); ?></span>
         <span class="nav-next"><?php next_post_link('%link', '<'); ?></span>
-      </div>
+      </div>-->
     </article>
     <?php endif; ?>
   </div>

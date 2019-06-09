@@ -41,6 +41,9 @@
                 <a href="<?php echo home_url(); ?>#news">NEWS</a>
               </li>
               <li class="menu_item">
+                <a href="<?php echo home_url(); ?>#live">LIVE</a>
+              </li>
+              <li class="menu_item">
                 <a href="<?php echo home_url(); ?>#profile">PROFILE</a>
               </li>
               <li class="menu_item">
