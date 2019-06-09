@@ -5,12 +5,13 @@ Template Name: Archives
 get_header(); ?>
 <div class="main_wrap">
   <div class="main">
-    <section id="news">
+    <section id="archive">
       <h1 class="section_title">
         NEWS
 			</h1>
       <div class="section_content">
         <div class="news_list">
+					<?php query_posts("cat=1&showposts=10"); ?>
 					<?php if(have_posts()):?>
 						<?php while(have_posts()):the_post();?>
 							<div class="list_item">

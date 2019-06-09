@@ -25,7 +25,7 @@
                 CONTACT
               </div>
               <div class="contact_button">
-                <a href="###">ライブ出演・依頼等のお問い合わせ</a>
+                <a href="https://forms.gle/94RpGovsp8FMfYtS6" target="_blank">ライブ出演・依頼等のお問い合わせ</a>
               </div>
             </div>
           </div>

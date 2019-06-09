@@ -17,9 +17,9 @@
                   <h3 class="title">
                     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                   </h3>
-                  <div class="description">
+                  <!--<div class="description">
                     <?php the_excerpt(); ?>
-                  </div>
+                  </div>-->
                 </div>
               </div>
             <?php endwhile; endif; ?>
@@ -29,9 +29,9 @@
           </div>
         </div>
 
-        <div class="section_content">
+        <div class="section_content" id="live">
           <h2 class="section_title">
-            schedule
+            live
           </h2>
           <div class="news_list">
             <?php query_posts("cat=6&showposts=5"); ?>
@@ -51,9 +51,6 @@
               </div>
             <?php endwhile; endif; ?>
           </div>
-          <div class="more_button">
-            <a href="<?php echo home_url(); ?>/schedule">READ MORE</a>
-          </div>
         </div>
       </section>
       <section id="profile">
@@ -71,12 +68,21 @@
               </div>
               <div class="profile_text">
                 <p>
-                  2013年9月 1st single「LETTER」リリース。<br />2016年10月 2nd single「TOMORROW」リリース。<br />同曲ミュージックビデオをYouTubeにて公開。<br />自身初のバンドワンマンショー《YELLOW》を神戸VARITにて開催。<br />2018年4月 3rd single「二十六の旅路」リリース。上京前ワンマンショー<br />《RED》を神戸ニューラフレアで開催。<br />2018年5月 上京。東京を拠点に活動開始。
+                シンガーソングライター。大阪生まれの鹿児島育ち、神戸での活動期間を経て、現在東京を拠点に活動中。<br />
                 </p>
                 <p>
-                  これまでKiss FM KOBEのサウンドクルーや神戸女学院大学アートパフォーマンスの授業にて特別講師を務めるなど、独自の表現で活動の場を広げている。<br />真骨頂は、どストレートな歌詞、語りかけるような深みのある歌声。<br />
+                2013年 1stシングル「LETTER」リリース。<br />
+                2016年 2ndシングル「TOMORROW」リリース、同曲MVを公開。<br />バンドワンマンliveを神戸VARIT.にて開催。<br />
+                2018年4月 3rdシングル「二十六の旅路」リリース。<br />上京前ワンマンliveを神戸ニューラフレアで開催。<br />
+                2019年7月 4thシングル「郷に従え」ライブ会場にて枚数限定リリース。<br />
+                </p>
+                <p>
+                これまでKiss FM KOBEのサウンドクルーや、神戸女学院大学にて特別講師を務めるなど、独自の表現で活動の場を広げている。
+                真骨頂は、情景の浮かぶ歌詞、語りかけるような深みのある歌声。<br />
+                どこか懐かしさを感じさせるSUMMYの音楽をぜひ生で感じてください。
                 </p>
               </div>
+
             </div>
           </div>
         </div>
@@ -128,7 +134,7 @@
                   2013
                 </div>
                 <div class="disc_link">
-                  <a href="https://itunes.apple.com/jp/album/home-single/1399844769" target="_blank"><i class="fab fa-apple"></i>Apple Music</a><a href="https://play.google.com/music/preview/Bvdk4n63c3exqn7j2u3kpyncum4" target="_blank"><i class="fab fa-google-play"></i>Google Play Music</a><a href="https://open.spotify.com/album/61cJ7tkaYra5BDnPrsoiSC" target="_blank"><i class="fab fa-spotify"></i>Spotify</a><a href="https://music.line.me/launch?target=track&amp;item=mb0000000001686947&amp;subitem=mt000000000da9138d&amp;cc=JP" target="_blank"><i class="fas fa-music"></i>LINE MUSIC</a>
+                  <a href="https://itunes.apple.com/jp/album/home-single/1399844769" target="_blank"><i class="fab fa-apple"></i>Apple Music</a><a href="https://play.google.com/music/preview/Bvdk4n63c3exqn7j2u3kpyncum4" target="_blank"><i class="fab fa-google-play"></i>Google Play Music</a><a href="https://open.spotify.com/album/61cJ7tkaYra5BDnPrsoiSC" target="_blank"><i class="fab fa-spotify"></i>Spotify</a><a href="https://music.line.me/launch?target=track&amp;item=mb0000000001686946&amp;subitem=mt000000000da9138c&amp;cc=JP" target="_blank"><i class="fas fa-music"></i>LINE MUSIC</a>
                 </div>
               </li>
               <li>
@@ -142,15 +148,15 @@
                   2013
                 </div>
                 <div class="disc_link">
-                  <a href="https://itunes.apple.com/jp/album/letter/1399848208?i=1399848209" target="_blank"><i class="fab fa-apple"></i>Apple Music</a><a href="https://play.google.com/music/preview/Bnd3ozvwopvbibuffx55rk2pkma" target="_blank"><i class="fab fa-google-play"></i>Google Play Music</a><a href="https://open.spotify.com/album/7eFbR4B4dnHXVkp9Q5w11A" target="_blank"><i class="fab fa-spotify"></i>Spotify</a><a href="https://music.line.me/launch?target=track&amp;item=mb0000000001686946&amp;subitem=mt000000000da9138c&amp;cc=JP" target="_blank"><i class="fas fa-music"></i>LINE MUSIC</a>
+                  <a href="https://itunes.apple.com/jp/album/letter/1399848208?i=1399848209" target="_blank"><i class="fab fa-apple"></i>Apple Music</a><a href="https://play.google.com/music/preview/Bnd3ozvwopvbibuffx55rk2pkma" target="_blank"><i class="fab fa-google-play"></i>Google Play Music</a><a href="https://open.spotify.com/album/7eFbR4B4dnHXVkp9Q5w11A" target="_blank"><i class="fab fa-spotify"></i>Spotify</a><a href="https://music.line.me/launch?target=track&amp;item=mb0000000001686947&amp;subitem=mt000000000da9138d&amp;cc=JP" target="_blank"><i class="fas fa-music"></i>LINE MUSIC</a>
                 </div>
               </li>
             </ul>
-            <div class="dick_link">
+            <!-- <div class="disk_link">
               <a href="###" target="_blank">
                 その他の音楽配信サービス
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
