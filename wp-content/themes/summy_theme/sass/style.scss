@@ -304,19 +304,19 @@ a {
         @include font16(#fff,1);
       }
       &:nth-child(1){
-        @include anim(0.6s,2.5s);
+        @include anim(0.6s,2.1s);
       }
       &:nth-child(2){
-        @include anim(0.6s,2.63s);
+        @include anim(0.6s,2.23s);
       }
       &:nth-child(3){
-        @include anim(0.6s,2.76s);
+        @include anim(0.6s,2.36s);
       }
       &:nth-child(4){
-        @include anim(0.6s,2.89s);
+        @include anim(0.6s,2.49s);
       }
       &:nth-child(5){
-        @include anim(0.6s,3.12s);
+        @include anim(0.6s,2.62s);
       }
     }
     li + li{
@@ -663,7 +663,7 @@ a {
             filter: blur(20px);
     opacity: 0;
     text-align: center;
-    @include anim(1s,2s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
+    @include anim(1s,1.2s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
     svg{
       max-width: 100%;
     }
@@ -689,7 +689,7 @@ a {
     text-align: center;
     // -webkit-filter: blur(20px);
             // filter: blur(20px);
-    @include anim(2s,0.5s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
+    @include anim(1s,0.5s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
     opacity: 0;
     width: 100%;
     height: 100%;
@@ -833,7 +833,7 @@ a {
 //  sction
 // -------------------------------------------
 section{
-  padding: 48px 24px 0;
+  padding: 36px 24px 0;
 }
 section:first-child{
   padding: 32px 24px 0;
@@ -851,6 +851,10 @@ section:first-child{
 }
 .section_content{
   padding: 20px 0 0 0;
+}
+
+.section_content + .section_content{
+  padding: 36px 0 0 0;
 }
 
 @media (min-width: $mediaquery) {
@@ -917,8 +921,8 @@ section:first-child{
   a{
     display: block;
     padding: 16px 48px;
-    border: 1px solid $text-color;
-    @include font14($text-color, 1);
+    border: 1px solid $line-color;
+    @include font14($text-color2, 1);
     text-align: center;
   }
 }
@@ -973,19 +977,21 @@ section:first-child{
         position: absolute;
         top: auto;
         right: 0;
+        top: 0;
         bottom: 0;
         left: 0;
-        height: 1px;
+        // height: 1px;
         width: 100%;
         -webkit-transform: scaleX(0);
                 transform: scaleX(0);
         -webkit-transform-origin: 100% 0;
                 transform-origin: 100% 0;
-        -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-        transition: -webkit-transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-        transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-        transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: -webkit-transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+        transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
         background: $main-color;
+        mix-blend-mode: screen;
       }
       &:hover:after{
         -webkit-transform: scaleX(1);
@@ -1013,7 +1019,7 @@ section:first-child{
         bottom: 2px;
         width: 14px;
         height: 1px;
-        background: $text-color;
+        background: $text-color2;
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
         -webkit-transform-origin: 100%;
@@ -1028,7 +1034,7 @@ section:first-child{
         bottom: 2px;
         width: 24px;
         height: 1px;
-        background: $text-color;
+        background: $text-color2;
         @include anim(400ms);
       }
       &:hover{
