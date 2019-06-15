@@ -17,10 +17,12 @@
   <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.typekit.net/ygb1mln.css">
   <link href="//fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet" />
-  <!-- <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> -->
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+  <div class="loading">
+    <img alt="SUMMY" src="<?php echo get_template_directory_uri(); ?>/img/loading_logo.png" />
+  </div>
   <header class="header" data-scroll-header="" id="header">
     <div class="header_wrap">
       <h1 class="header_logo">

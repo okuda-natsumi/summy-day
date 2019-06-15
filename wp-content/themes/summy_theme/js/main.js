@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function(){
    menuLink = document.querySelectorAll('.menu_list a'),
    header = document.querySelector('.header'),
    header_wrap = document.querySelector('.header_wrap'),
+   load_wrap = document.querySelector('.loading'),
    hero_image = document.querySelector('.hero_image'),
    hero_logo = document.querySelector('.hero_logo'),
    scroll_info = document.querySelector('.scroll_info'),
    screenHeight = window.innerHeight,
    headerHeight = header_wrap.clientHeight;
-  console.log(headerHeight,screenHeight);
   menuBtn.addEventListener('click', function() {
     if(flugMenu){
       openMenu();
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function(){
     var scrollOffset = window.innerHeight - headerHeight;
     scroll(scrollOffset);
   };
-  
+
   var scroll = function(scrollOffset){
     var y = window.pageYOffset ;
     if (y >= scrollOffset && scrollFlag) {
@@ -124,6 +124,8 @@ document.addEventListener('DOMContentLoaded', function(){
     videoFrame.setAttribute("src", videoUrl);
     // console.log(videoFrame);
   }
+
+  //Image
   function heroFade(){
     hero_logo.classList.add('on');
     hero_image.classList.add('on');
@@ -131,15 +133,24 @@ document.addEventListener('DOMContentLoaded', function(){
     scroll_info.classList.add('fadein');
   }
 
-  var images = document.getElementsByTagName('img');
-  for (var i = 0; i < images.length; i++) {
-    var img = new Image();
-    img.onload = function() {
+  imagesLoaded('.hero_image', { background: true }, function () {
+    hideLoading();
+    setTimeout(function () {
       heroFade();
-    }
-    img.src = images[i].src;
+    }, 300);
+  });
+  imagesLoaded('.loading img', { background: true }, function () {
+    showLoading();
+  });
+
+  function hideLoading() {
+    load_wrap.classList.add('off');
+    setTimeout(function () {
+      load_wrap.classList.add('hide');
+    }, 300);
   }
 
+  //Scroll
   var smoothScroll = new SmoothScroll('a[href*="#"]', {
     header: '[data-scroll-header]',
     updateURL: false,

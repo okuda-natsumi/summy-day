@@ -16,6 +16,11 @@ function main_scripts(){
         get_template_directory_uri() .'/js/smooth-scroll.min.js',
         true
     );
+    wp_enqueue_script(
+        'image_script',
+        get_template_directory_uri() .'/js/imagesloaded.pkgd.min.js',
+        true
+    );
 }
 add_action( 'wp_enqueue_scripts' , 'main_scripts' );
 
