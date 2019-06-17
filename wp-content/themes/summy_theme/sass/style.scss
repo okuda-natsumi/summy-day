@@ -725,7 +725,7 @@ a {
             transform: translate(0, 0);
     margin: auto;
     text-align: center;
-    @include anim(1s,0.5s,$easeing: cubic-bezier(0.39, 0.575, 0.565, 1));
+    @include anim(1s,0.5s,$easeing: ease);
     opacity: 0;
     width: 100%;
     height: 100%;

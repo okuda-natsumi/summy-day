@@ -9,7 +9,8 @@ function main_scripts(){
     wp_enqueue_script(
         'main_script',
         get_template_directory_uri() .'/js/main.js',
-        true
+        array(),
+        filemtime( get_template_directory() . '/js/imagesloaded.pkgd.min.js' )
     );
     wp_enqueue_script(
         'scroll_script',
@@ -19,7 +20,8 @@ function main_scripts(){
     wp_enqueue_script(
         'image_script',
         get_template_directory_uri() .'/js/imagesloaded.pkgd.min.js',
-        true
+        array(),
+        filemtime( get_template_directory() . '/js/imagesloaded.pkgd.min.js' )
     );
 }
 add_action( 'wp_enqueue_scripts' , 'main_scripts' );
