@@ -139,9 +139,6 @@ document.addEventListener('DOMContentLoaded', function(){
       heroFade();
     }, 300);
   });
-  imagesLoaded('.loading img', { background: true }, function () {
-    showLoading();
-  });
 
   function hideLoading() {
     load_wrap.classList.add('off');
