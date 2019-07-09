@@ -246,7 +246,7 @@ a {
 }
 
 .header.on .menu_bar, .post-template-default .header .menu_bar, .archive .header .menu_bar {
-  background: #ff003e;
+  background: #ec2146;
 }
 
 @media (min-width: 769px) {
@@ -306,7 +306,7 @@ a {
 
 .menu_wrap li a {
   position: relative;
-  color: #ff003e;
+  color: #ec2146;
   font-size: 28px;
   line-height: 1;
   font-family: 'Montserrat', sans-serif;
@@ -495,10 +495,10 @@ a {
     transform: translate(0);
   }
   .menu_wrap.on-pc .menu_list li a, .post-template-default .menu_wrap .menu_list li a, .archive .menu_wrap .menu_list li a {
-    color: #ff003e;
+    color: #ec2146;
   }
   .menu_wrap.on-pc .menu_list .menu_item:before, .post-template-default .menu_wrap .menu_list .menu_item:before, .archive .menu_wrap .menu_list .menu_item:before {
-    background: #ff003e;
+    background: #ec2146;
   }
   .menu_wrap.fadein li {
     opacity: 1;
@@ -562,7 +562,7 @@ a {
 }
 
 .menu_btn.on .menu_bar {
-  background: #ff003e;
+  background: #ec2146;
 }
 
 .menu_btn.on .menu_bar:nth-child(1) {
@@ -941,13 +941,13 @@ a {
     top: 106px;
     height: 100%;
   }
-  .hero .scroll_info {
-    bottom: 32px;
+  .hero .scroll_info.fadein {
+    bottom: 44px;
   }
-  .hero .scroll_info span {
+  .hero .scroll_info.fadein span {
     font-size: 15px;
   }
-  .hero .scroll_info:after {
+  .hero .scroll_info.fadein:after {
     width: 24px;
     height: 24px;
     border: 4px solid;
@@ -980,7 +980,7 @@ a {
     overflow: hidden;
   }
   .main {
-    width: 960px;
+    width: 980px;
     padding: 0 0 128px;
   }
   .single .main {
@@ -1150,7 +1150,7 @@ section:first-child {
     transition: -webkit-transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
     transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-    background: #ff003e;
+    background: #ec2146;
     mix-blend-mode: screen;
   }
   .list_title a:hover:after {
@@ -1232,7 +1232,7 @@ section:first-child {
 .profile_name {
   font-family: 'ivyjournal', sans-serif;
   color: #3a3a3a;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 1;
 }
 
@@ -1318,7 +1318,7 @@ section:first-child {
 }
 
 .music_list .disc_link a:hover {
-  color: #ff003e;
+  color: #ec2146;
 }
 
 .music_list .disc_link a + a {
@@ -1337,8 +1337,8 @@ section:first-child {
 .music_list .dick_link a {
   display: block;
   padding: 16px 48px;
-  border: 1px solid #ff003e;
-  color: #ff003e;
+  border: 1px solid #ec2146;
+  color: #ec2146;
   font-size: 14px;
   line-height: 1;
   text-align: center;
@@ -1373,7 +1373,7 @@ section:first-child {
     bottom: 4px;
     width: 16px;
     height: 1px;
-    background: #ff003e;
+    background: #ec2146;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-transform-origin: 100%;
@@ -1389,7 +1389,7 @@ section:first-child {
     bottom: 4px;
     width: 28px;
     height: 1px;
-    background: #ff003e;
+    background: #ec2146;
     -webkit-transition: all 400ms 0ms cubic-bezier(0.27, 0.9, 0.615, 1);
     transition: all 400ms 0ms cubic-bezier(0.27, 0.9, 0.615, 1);
   }
@@ -1677,7 +1677,7 @@ section:first-child {
 
 @media (min-width: 769px) {
   .entry .entry_header {
-    padding: 20px 0;
+    padding: 24px 0 20px;
   }
   .entry .entry_title {
     margin: 2px 0 0;
@@ -1695,7 +1695,7 @@ section:first-child {
 
 footer.footer {
   position: relative;
-  background: #ff003e;
+  background: linear-gradient(135deg, #ff003e 0%, #ff3f00 100%);
 }
 
 .footer_wrap {
@@ -1790,7 +1790,7 @@ footer.footer {
 }
 
 .footer_contact .contact_button:hover a {
-  color: #ff003e;
+  color: #ec2146;
 }
 
 .footer_contact .contact_button:hover:after {
