@@ -811,8 +811,8 @@ a {
       top: 106px;
       height: 100%;
     }
-    .scroll_info{
-      bottom: 32px;
+    .scroll_info.fadein{
+      bottom: 44px;
       span{
         font-size: 15px;
       }
@@ -854,7 +854,7 @@ a {
     overflow: hidden;
   }
   .main {
-    width: 960px;
+    width: 980px;
     padding: 0 0 128px;
   }
   .single .main{
@@ -1133,8 +1133,7 @@ section:first-child{
 
 .profile_name{
   font-family: 'ivyjournal', sans-serif;
-  @include font28($text-color, 1);
-  // font-weight: bold;
+  @include font24($text-color, 1);
 }
 
 .profile_text{
@@ -1541,7 +1540,7 @@ section:first-child{
 @media (min-width: $mediaquery) {
   .entry{
     .entry_header{
-      padding: 20px 0;
+      padding: 24px 0 20px;
     }
     .entry_title{
       margin: 2px 0 0;
@@ -1563,7 +1562,7 @@ section:first-child{
 // -------------------------------------------
 footer.footer {
   position: relative;
-  background: $main-color;
+  background: linear-gradient(135deg, #ff003e 0%,#ff3f00 100%);
 }
 
 .footer_wrap {
